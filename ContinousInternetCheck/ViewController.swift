@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  ContinousInternetCheck
 //
-//  Created by Vrushabh Dhameliya on 30/12/20.
-//abc
+//  Created by Vrushabh Dhameliya on 30/12/20.@coppyright
+//
 
 import UIKit
 
