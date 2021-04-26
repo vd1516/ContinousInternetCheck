@@ -15,6 +15,8 @@
 		17493320259CA82000428355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1749331E259CA82000428355 /* LaunchScreen.storyboard */; };
 		1749332B259CA82100428355 /* ContinousInternetCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1749332A259CA82100428355 /* ContinousInternetCheckTests.swift */; };
 		17493336259CA82100428355 /* ContinousInternetCheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17493335259CA82100428355 /* ContinousInternetCheckUITests.swift */; };
+		17493347259CA87900428355 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17493346259CA87900428355 /* Internet.swift */; };
+		1749334C259CAA6D00428355 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1749334B259CAA6D00428355 /* SecondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		17493331259CA82100428355 /* ContinousInternetCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContinousInternetCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17493335259CA82100428355 /* ContinousInternetCheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinousInternetCheckUITests.swift; sourceTree = "<group>"; };
 		17493337259CA82100428355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17493346259CA87900428355 /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
+		1749334B259CAA6D00428355 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				1749331C259CA82000428355 /* Assets.xcassets */,
 				1749331E259CA82000428355 /* LaunchScreen.storyboard */,
 				17493321259CA82000428355 /* Info.plist */,
+				17493346259CA87900428355 /* Internet.swift */,
+				1749334B259CAA6D00428355 /* SecondVC.swift */,
 			);
 			path = ContinousInternetCheck;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				17493318259CA81B00428355 /* ViewController.swift in Sources */,
+				1749334C259CAA6D00428355 /* SecondVC.swift in Sources */,
 				17493314259CA81B00428355 /* AppDelegate.swift in Sources */,
+				17493347259CA87900428355 /* Internet.swift in Sources */,
 				17493316259CA81B00428355 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +445,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 952S4KWZ8X;
 				INFOPLIST_FILE = ContinousInternetCheck/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 952S4KWZ8X;
 				INFOPLIST_FILE = ContinousInternetCheck/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
